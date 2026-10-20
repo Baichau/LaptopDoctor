@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Laptop Doctor</title>
+<link rel="stylesheet" href="/style.css"></head><body>
+<header><div class="brand">Laptop Doctor</div><nav>
+<button data-t="dash" onclick="go('dash')">Overview</button><button data-t="plan" onclick="go('plan')">Review changes</button>
+<button data-t="hist" onclick="go('hist')">History</button><button data-t="set" onclick="go('set')">Settings</button></nav></header>
+<main id="view"></main><dialog id="dlg"><p id="dtxt" style="white-space:pre-line"></p><form method="dialog" class="row2"><button class="btn ghost" value="cancel">Cancel</button><button class="btn" value="ok">Apply changes</button></form></dialog><div id="toast"></div>
+<script src="/app.js"></script></body></html>

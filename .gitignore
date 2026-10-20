@@ -1,0 +1,19 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Local app data / logs
+*.log
+laptop_doctor.log
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
